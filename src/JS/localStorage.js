@@ -18,12 +18,12 @@ class FilmsLocalStorage {
     this.signIn = true;
 
     const account = JSON.parse(localStorage.getItem('account'));
-    // if (!account) {
-    //   Notiflix.Notify.warning('➡ You have to sign in first');
-    //   console.log('➡ You have to sign in first');
-    //   this.signIn = false;
-    //   return Promise.reject('fail');
-    // }
+    if (!account) {
+      // Notiflix.Notify.warning('➡ You have to sign in first');
+      console.log('➡ You have to sign in first');
+      this.signIn = false;
+      return Promise.reject('fail');
+    }
 
     this.uid = account.id;
 
