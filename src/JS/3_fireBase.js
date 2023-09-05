@@ -1,15 +1,6 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
-
-// import { initializeApp } from 'firebase/app';
-// import {
-//   getAuth,
-//   signInWithPopup,
-//   GoogleAuthProvider,
-//   signOut,
-// } from 'firebase/auth';
-
 import { firebaseConfig } from './helpers';
 import { storage } from './localStorage';
 import Notiflix from 'notiflix';
