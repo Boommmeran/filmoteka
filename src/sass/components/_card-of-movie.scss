@@ -17,24 +17,9 @@
   @include desktop() {
     .movie_card_img {
       margin-bottom: 12px;
-      // max-width: 395px;
     }
   }
 }
-
-// @media (min-width: 767px) {
-//   .movie_card_img {
-//     margin-bottom: 8px;
-//     // max-width: 336px;
-//   }
-// }
-
-// @media (min-width: 1200px) {
-//   .movie_card_img {
-//     margin-bottom: 12px;
-//     // max-width: 395px;
-//   }
-// }
 
 .movie_card_desc {
   display: flex;
@@ -63,13 +48,6 @@
   }
 }
 
-// @media (min-width: 1200px) {
-//   .movie_card_title {
-//     font-size: 20px;
-//     line-height: calc(24 / 20);
-//   }
-// }
-
 .movie_card_ganres {
   font-family: Roboto;
   font-size: 12px;
@@ -84,25 +62,6 @@
   }
 }
 
-// @media (min-width: 1200px) {
-//   .movie_card_ganres {
-//     font-size: 20px;
-//     line-height: calc(24 / 20);
-//   }
-// }
-
-// .movie_card_ganres::after {
-//   content: '';
-//   display: inline-block;
-//   position: absolute;
-//   background-color: #ff6b08;
-//   width: 1px;
-//   height: 100%;
-
-//   right: -5px;
-//   bottom: 2px;
-// }
-
 .movie_card_year {
   font-family: Roboto;
   font-size: 12px;
@@ -114,11 +73,6 @@
     font-size: 20px;
     margin-right: 8px;
   }
-
-  // @media (min-width: 767px) {
-  //   font-size: 20px;
-  //   margin-right: 8px;
-  // }
 }
 
 .movie_card_rating {

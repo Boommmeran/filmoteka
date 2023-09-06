@@ -19,15 +19,10 @@ class FilmsLocalStorage {
 
     const account = JSON.parse(localStorage.getItem('account'));
     if (!account) {
-      Notiflix.Notify.warning('➡ You have to sign in first');
-      console.log('➡ You have to sign in first');
       this.signIn = false;
-      return Promise.reject('fail');
     }
 
-    if (account.id) {
-      this.uid = account.id;
-    }
+
     
 
     this.#WATCH_KEY = /users/ + 'watch' + this.uid;

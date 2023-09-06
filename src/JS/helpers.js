@@ -12,4 +12,5 @@ export const firebaseConfig = {
   messagingSenderId: "404108642363",
   appId: "1:404108642363:web:64529f7d73cd14e584341e",
   measurementId: 'G-C2FX86EHMV',
+  databaseURL: "https://filmoteka-62927-default-rtdb.europe-west1.firebasedatabase.app",
 };
